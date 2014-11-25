@@ -10,7 +10,7 @@ import java.util.Timer;
 
 public class Main extends JFrame implements KeyListener{
     private Pentomino pentomino;
-    private static final int boardMargin = 15;
+    private static final int boardMargin = 18;
     private static final int cellMargin = 3;
     private static final int cellSize = 45;
     private static final int cellNextMargin = 3;
