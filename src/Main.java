@@ -141,8 +141,8 @@ public class Main extends JFrame implements KeyListener{
         g2.drawString("Game Over!", 25, 150);
 
         g2.setFont(new Font("Arial", 1, 20));
-        g2.drawString("Press 'r' to reset", 70, 180);
-        g2.drawString("Press 'h' to save the score", 70, 200);
+        g2.drawString("R: reset", 70, 180);
+        g2.drawString("H: save your score", 70, 200);
         g2.setFont(new Font("Arial", 1, 16));
         g2.drawString("Prev highscores:", 70, 220);
         g2.setFont(new Font("Arial", 1, 13));
